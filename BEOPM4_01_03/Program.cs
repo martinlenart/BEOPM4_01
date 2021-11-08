@@ -60,6 +60,7 @@ namespace BEOPM4_01_03
 //Exercise
 //1.    Make a small program that reads a sentence from a user, counts the number of vowels in the sentence, i.e.
 //      a, e, i, o, u, y and informs the user how many vowels in the sentence.
+
 //2.    Make a small Login program that asks a user for a user name and a password. The password
 //      should be compared HashCode wise to stored password hash code. If Login 
 //      successful write a welcome message
