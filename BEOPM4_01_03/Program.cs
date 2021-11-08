@@ -17,7 +17,9 @@ namespace BEOPM4_01_03
 
             Console.WriteLine();
             Console.WriteLine(str1.Substring(32));          //white rabbit
-            Console.WriteLine(str1.Insert(32, "sleepy "));   //...the sleepy white rabbit
+            var s2 = str1.Insert(32, "sleepy ");
+            Console.WriteLine(str1);   //...the white rabbit
+            Console.WriteLine(s2);   //...the sleepy white rabbit
             Console.WriteLine(str1.Remove(32, 6));   //...the rabbit
 
             Console.WriteLine();
@@ -37,9 +39,9 @@ namespace BEOPM4_01_03
             string str3 = "indigo".ToUpper();
             string str4 = "indigo".ToUpper(CultureInfo.GetCultureInfo("tr-TR"));
             string str5 = "indigo".ToUpperInvariant();
-            Console.WriteLine($"{str3} str3[0]:{(int) str3[0]:X}");
-            Console.WriteLine($"{str4} str4[0]:{(int) str4[0]:X}");
-            Console.WriteLine($"{str5} str5[0]:{(int) str5[0]:X}");
+            Console.WriteLine($"{str3} str3[0]:{(int) str3[0]}");
+            Console.WriteLine($"{str4} str4[0]:{(int) str4[0]}");
+            Console.WriteLine($"{str5} str5[0]:{(int) str5[0]}");
 
             Console.WriteLine();
             string[] strArray1 = str1.Split(' ');
@@ -55,3 +57,6 @@ namespace BEOPM4_01_03
         }
     }
 }
+//Exercise
+//1.    Make a small program that reads a sentence from a user, counts the number of vowels in the sentence, i.e.
+//      a, e, i, o, u, y and informs the user how many vowels in the sentence.

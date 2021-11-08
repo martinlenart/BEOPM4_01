@@ -26,6 +26,7 @@ namespace BEOPM4_01_06
             byte[] utf32Bytes = System.Text.Encoding.UTF32.GetBytes(str1);
 
             Console.WriteLine();
+            Console.WriteLine(str1.);
             Console.WriteLine(utf8Bytes.Length);    // 44
             Console.WriteLine(utf16Bytes.Length);   // 88
             Console.WriteLine(utf32Bytes.Length);   // 176
@@ -62,3 +63,6 @@ namespace BEOPM4_01_06
         }
     }
 }
+//Exercise
+//1.    Make a small program that reads a sentence from a user, converts the sentence to 3 byte arrays with UTF8, 
+//      Unicode, UTF32 and print out the arrays and their length.      

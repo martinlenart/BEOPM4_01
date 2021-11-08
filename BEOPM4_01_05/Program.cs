@@ -8,7 +8,7 @@ namespace BEOPM4_01_05
         static void Main(string[] args)
         {
             Console.WriteLine($"\nBig-O speed test:");
-            const int HugeNrCreated = 10_000;
+            const int HugeNrCreated = 100;
             string strSentence = "The quick brown fox catches the white rabbit\n";
 
             // string concat takes about 586ms on my machine
